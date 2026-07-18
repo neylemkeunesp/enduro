@@ -1,0 +1,3 @@
+# DASM build artifacts (regenerated from src/)
+*.bin
+*.lst
