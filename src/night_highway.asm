@@ -197,8 +197,6 @@ RAM_END
         SEG code
         ORG $F000
 
-        include "data.asm"
-
 Reset:
         CLEAN_START                     ; RAM=0, TIA=0, SP=$FF, A=X=Y=0
         lda #$9C
